@@ -1,5 +1,12 @@
-actor {
-  public query func greet(name : Text) : async Text {
-    return "Hello, " # name # "!";
-  };
+import Debug "mo:base/Debug";
+import  Types  "Types"
+
+actor{
+  
+  public func createFamily(family: Types.Family){
+
+  }
+
+
 };
+
